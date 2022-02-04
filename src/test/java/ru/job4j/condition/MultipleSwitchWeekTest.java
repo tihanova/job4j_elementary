@@ -12,8 +12,5 @@ public class MultipleSwitchWeekTest {
         int result = MultipleSwitchWeek.numberOfDay(str);
         int expected = 1;
         Assert.assertEquals(expected, result);
-
     }
-
-
 }
