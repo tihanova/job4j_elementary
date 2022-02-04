@@ -11,7 +11,7 @@ public class CheckPrimeNumber {
                 prime = false;
                 break;
             }
-            index += 1;
+            System.out.println(index);
         }
         return prime;
     }
