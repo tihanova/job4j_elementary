@@ -25,7 +25,6 @@ public class CheckPrimeNumberTest {
         Assert.assertFalse(result);
     }
 
-
     @Test
     public void when2() {
         int number = 2;
