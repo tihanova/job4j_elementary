@@ -8,7 +8,7 @@ public class FactorialTest {
     public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
         int n = 5;
         int expected = 120;
-        int result = Factorial.calc(n);
+        int result = Factorial.calculate(n);
         Assert.assertEquals(expected, result);
     }
 
@@ -16,7 +16,7 @@ public class FactorialTest {
     public void whenCalculateFactorialForZeroThenOne() {
         int n = 0;
         int expected = 1;
-        int result = Factorial.calc(n);
+        int result = Factorial.calculate(n);
         Assert.assertEquals(expected, result);
     }
 }
