@@ -41,7 +41,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax1_2_0Then2() {
+    public void whenMax1To2To0Then2() {
         int first = 1;
         int second = 2;
         int third = 2;
@@ -51,7 +51,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax2_4_6Then6() {
+    public void whenMax2To4To6Then6() {
         int first = 2;
         int second = 4;
         int third = 6;
@@ -61,7 +61,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax0_4_0_8Then8() {
+    public void whenMax0To4To0To8Then8() {
         int first = 0;
         int second = 4;
         int third = 0;
@@ -72,7 +72,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax5_3_0_2Then5() {
+    public void whenMax5To3To0To2Then5() {
         int first = 5;
         int second = 3;
         int third = 0;
