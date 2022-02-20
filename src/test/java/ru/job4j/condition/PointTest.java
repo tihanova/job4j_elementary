@@ -42,7 +42,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to06too99then6() {
+    public void when009to0minus69then6() {
         double expected = 6;
         Point a = new Point(0, 0, 9);
         Point b = new Point(0, -6, 9);
@@ -51,7 +51,7 @@ public class PointTest {
     }
 
     @Test
-    public void when02to40too19then6() {
+    public void when021to409then9Dot165() {
         double expected = 9.165;
         Point a = new Point(0, 2, 1);
         Point b = new Point(4, 0, 9);
